@@ -1,0 +1,12 @@
+
+@media all and (max-width: 800px) {
+    .divDeskTop{
+        display: none;
+    }
+  }
+
+  @media all and (min-width: 801px) {
+    .divMobile{
+        display: none;
+    }
+  }

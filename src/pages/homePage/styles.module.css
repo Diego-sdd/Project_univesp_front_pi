@@ -1,0 +1,37 @@
+body {
+    background: var(--background);
+  }
+
+.containerTopText{
+    margin-top: 1rem;
+    padding: 2rem;
+}
+@media all and (max-width: 1350px) {
+    .containerTopText{
+        background-color: rgb(255, 255, 255);
+        border-radius: 20px;
+        padding-bottom: 5rem;
+    }
+}
+.h1{
+    color: var(--title);
+    font-size: 30pt;
+    margin-top: 20px;
+}
+.h2{
+    color: var(--text);
+}
+.TitleBody{
+    margin-top: 8ch;
+    width: 100%;
+    text-align: center;
+}
+.image{
+    float: 'right' !important;
+    right: 0 !important;
+    top: 0 !important;
+  
+}
+.margeContainer{
+    margin-top: 50ch;
+}
