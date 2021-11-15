@@ -1,9 +1,8 @@
 import axios from 'axios';
-import 'dotenv/config';
-//import constants from '../config/constants';
+import constants from '../config/constants';
 
 const api = axios.create({
-  baseURL: process.env.REACT_APP_API_URL,
+  baseURL: constants.generalApiPath,
 });
 
 export default api;

@@ -1,5 +1,5 @@
 const constants = {
-    generalApiPath: 'http://localhost:3333/',
+    generalApiPath: 'https://pi-project-univesp-back.herokuapp.com/',
   };
   
   export default constants;
